@@ -1,0 +1,64 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+.silver{
+    color: silver
+}
+a:link {
+    color: aqua;
+}
+div{
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+header{
+    margin-bottom: 20px;
+}
+h1{
+    margin: 10px;
+}
+footer {
+    margin-top: 20px;
+}
+#wrapper {
+    width: 970px;
+    background-color: navy;
+    padding: 10px;
+}
+.roundedBox {
+    border-radius: 15px;
+}
+.mainContent {
+    background-color: black;
+    width: 735px;
+    margin-left: 10px;
+}
+.naviagtionControl {
+    background-color: lightseagreen;
+    padding: 0px;
+    width: 200px;
+    margin-right: 10px;
+}
+.topRed {
+    background-color: darkred;
+    padding: 5px;
+}
+.bottomGrey {
+    background-color: darkgrey;
+    padding: 5px;
+}
+.firstLiChild {
+    list-style-type: none;
+    padding: 0px;
+}
+li {
+    list-style-position: inside;
+}
+ul{
+    -webkit-padding-start: 15px;
+}
+span{
+    color: mediumpurple;
+}
