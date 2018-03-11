@@ -19,6 +19,9 @@ header{
 h1{
     margin: 10px;
 }
+h2{
+    margin: 10px 0px;
+}
 footer {
     margin-top: 20px;
 }
@@ -32,14 +35,21 @@ footer {
 }
 .mainContent {
     background-color: black;
-    width: 735px;
-    margin-left: 10px;
+    width: 700px;
+    margin-left: 10px;        
+    padding: 10px 22.5px;
 }
+.mainContent ul li {
+    list-style-position: outside;
+    margin-top: 10px;
+ }
+ 
 .naviagtionControl {
     background-color: lightseagreen;
     padding: 0px;
     width: 200px;
     margin-right: 10px;
+    list-style-position: inside;
 }
 .topRed {
     background-color: darkred;
@@ -54,11 +64,8 @@ footer {
     padding: 0px;
 }
 ul  {
-    -webkit-padding-start: 15px;  
-   }
-ul li {
-    list-style-position:inside
-   }
+    -webkit-padding-start: 20px;  
+}
 span{
     color: mediumpurple;
 }
