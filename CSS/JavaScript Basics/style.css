@@ -53,12 +53,12 @@ footer {
     list-style-type: none;
     padding: 0px;
 }
-li {
-    list-style-position: inside;
-}
-ul{
-    -webkit-padding-start: 15px;
-}
+ul  {
+    -webkit-padding-start: 15px;  
+   }
+ul li {
+    list-style-position:inside
+   }
 span{
     color: mediumpurple;
 }
