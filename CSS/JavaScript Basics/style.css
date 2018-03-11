@@ -25,6 +25,9 @@ h2{
 footer {
     margin-top: 20px;
 }
+footer p:first-child{
+    margin: 15px;
+}
 #wrapper {
     width: 970px;
     background-color: navy;
