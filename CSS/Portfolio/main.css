@@ -1,13 +1,19 @@
+html{
+    background-color: #0E0E0E;
+}
 body {
-    width: 1000px;
+    width: 950px;
     margin: auto;
 }
 img{
     display: inline-block;
 }
+a:link{
+    color: black;
+}
 header {
     background: linear-gradient(silver, white);
-    width: 970px;
+    width: 920px;
     height: auto;  
     display:flex;
     justify-content: space-between;
@@ -35,25 +41,35 @@ main div{
     justify-content: space-between;
 }
 main div div{
-    width: 500px;
     display: inline-block;
     vertical-align: top;
+    font-family: sans-serif;
 }
-main div div h2{
-    background: linear-gradient(white, grey);
-    margin: 0;    
+#about {
+    width: 480px;
+    height: 274px;
+    margin-left: 15px;
+}
+main div div p{
+    margin: 17px 10px;
+    font-family: sans-serif;
+
 }
 footer {
     background: linear-gradient(white, silver);
-    width: 1000px;
+    width: 950px;
     height: auto;
     text-align: center;
 }
 .centerTextinLine{
     text-align: center;
 }
-.gradSilverGreySilver {
-    background: linear-gradient(silver, grey, silver);
+main h2, h3 {
+    background: linear-gradient(rgb(192, 192, 192), #808080, silver);
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 0;    
 }
 .smallImage{
     width: 20px;
@@ -62,4 +78,18 @@ footer {
 .mediumImage{
     width: 400px;
     border: 5px solid silver;
+}
+.mediumBoxes {
+    background: linear-gradient(to right, rgb(255, 255, 255),rgb(167, 167, 167));
+    color: black;
+    width: 300px;
+}
+.contentImages {
+    width: 300px
+}
+.contentBoxes {
+    margin: 20px 0px;
+    width: 300px;
+    height: 700px;
+    display: inline-block;
 }
