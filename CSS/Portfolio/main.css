@@ -1,0 +1,22 @@
+body {
+    width: 1000px;
+    margin: auto;
+}
+.gradSilverGreySilver {
+    background: linear-gradient(silver, grey, silver);
+}
+.gradSilverToGrey {
+}
+.gradGreyToSilver {
+}
+header {
+    background: linear-gradient(grey, silver);
+    width: 1000px;
+}
+main {
+    width: 1000px;
+}
+footer {
+    background: linear-gradient(silver, grey);
+    width: 1000px;
+}
